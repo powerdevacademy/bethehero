@@ -14,14 +14,15 @@ module.exports = {
   },
 
   staging: {
-    client: 'postgresql',
+    client: 'mysql',
     connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
+      host:     'powerdev.choatgnq0xau.sa-east-1.rds.amazonaws.com',
+      database: 'bethehero',
+      user:     'root',
+      password: '#P0werD3v'
     },
     pool: {
-      min: 2,
+      min: 1,
       max: 10
     },
     migrations: {
@@ -30,14 +31,15 @@ module.exports = {
   },
 
   production: {
-    client: 'postgresql',
+    client: 'mysql',
     connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
+      host:     'powerdev.choatgnq0xau.sa-east-1.rds.amazonaws.com',
+      database: 'bethehero',
+      user:     'root',
+      password: '#P0werD3v'
     },
     pool: {
-      min: 2,
+      min: 1,
       max: 10
     },
     migrations: {
